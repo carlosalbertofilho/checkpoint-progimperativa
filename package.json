@@ -1,0 +1,19 @@
+{
+  "name": "checkpoint-progimperativa",
+  "version": "1.0.0",
+  "description": "CheckPoint - Programação Imperativa - CTD",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carlosalbertofilho/checkpoint-progimperativa.git"
+  },
+  "author": "Carlos Alberto Silva dos Santos Filho",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/carlosalbertofilho/checkpoint-progimperativa/issues"
+  },
+  "homepage": "https://github.com/carlosalbertofilho/checkpoint-progimperativa#readme"
+}
