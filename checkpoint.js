@@ -12,26 +12,26 @@ let produtos = [{
     },
     {
         nomeProduto: 'Moto G30',
-        valorProduto: 1359.15,
+        valorProduto: 1259.15,
         qualiadeProduto: 7,
         statusProduto: true,
     },
     {
         nomeProduto: 'Moto G20',
         valorProduto: 1169.10,
-        qualiadeProduto: 6,
+        qualiadeProduto: 7,
         statusProduto: true,
     },
     {
         nomeProduto: 'Moto E7 Power',
         valorProduto: 765.15,
-        qualiadeProduto: 5,
+        qualiadeProduto: 6,
         statusProduto: false,
     },
     {
-        nomeProduto: 'Moto G30',
+        nomeProduto: 'Moto G30 128G',
         valorProduto: 1359.15,
-        qualiadeProduto: 6,
+        qualiadeProduto: 7,
         statusProduto: true,
     },
     {
@@ -84,6 +84,6 @@ console.log(carrinho)
 
 
 let valorTotal = filtro.reduce((soma, produtos) => {
-    return soma += produtos.valorProduto
+    return soma + produtos.valorProduto
 })
 console.log(`O valor do carrinho R$ ${valorTotal}`)
